@@ -3,9 +3,6 @@
 }
 
 .header{
-  padding: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,9 +12,7 @@
 .header-menu{
   display: flex;
   gap: 0px 40px;
-  flex-wrap: wrap;
-  justify-content: center;
-  
+  flex-wrap: wrap;  
 }
 
 .header-menu a{
@@ -44,13 +39,16 @@
 @media (max-width: 800px){
   .header{
     display: block;
-    text-align: center;
+  }
+  .header-menu {
+    gap: 0px 20px;
   }
   .header-menu a{
     display: inline-block;
-    padding: 12px 16px;
+    padding: 8px 12px;
     background-color: var(--cor-11);
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: .9rem;
     border-radius: 5px;
   }
   .header-menu a:hover{
@@ -63,7 +61,12 @@
 
 @media (max-width: 450px){
   .header-menu{
-    flex-wrap: wrap;
-    gap: 10px 25px;
+    flex-wrap: wrap; 
+  }
+}
+
+@media (max-width: 280px) {
+  .header{
+    padding: 0px 10px;
   }
 }
