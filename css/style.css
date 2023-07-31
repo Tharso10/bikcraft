@@ -5,8 +5,11 @@
 @import "utilidades/tipografia.css";
 
 @import "global.css/header.css";
+
 /* home */
 @import "home/introdução.css";
+@import "home/tecnologia.css";
+
 /* utilidades */
 @import "utilidades/componentes.css";
 /* bicicletas*/
