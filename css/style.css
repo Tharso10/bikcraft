@@ -4,7 +4,9 @@
 @import "utilidades/cores.css";
 @import "utilidades/tipografia.css";
 
+/* Global */
 @import "global.css/header.css";
+@import "global.css/footer.css";
 
 /* home */
 @import "home/introdução.css";
@@ -14,6 +16,7 @@
 
 /* utilidades */
 @import "utilidades/componentes.css";
+
 /* bicicletas*/
 @import "bicicletas/bicicletas-lista.css";
 
