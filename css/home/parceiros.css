@@ -35,12 +35,17 @@
 }
 
 @media (max-width: 800px) {
+  .parceiros{
+    padding-bottom: 60px;
+  }
   .parceiros-lista{
     grid-template-columns: 1fr 1fr;
-    padding: 0px 20px;
   }
   .parceiros h2{
     margin-bottom: 20px;
+  }
+  .parceiros li{
+    padding: 20px;
   }
   .parceiros li:nth-child(odd){
     border-left: none;
