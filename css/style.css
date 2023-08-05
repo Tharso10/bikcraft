@@ -26,4 +26,7 @@
  /* Termos */ 
  @import "../termos.html";
  @import "termos/termos.css";
- 
+
+ /* Bicicleta-página */
+ @import "bicicletas/bicicletas.css";
+

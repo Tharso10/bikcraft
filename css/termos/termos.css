@@ -1,24 +1,9 @@
-.termos-bg{
-  background-color: var(--cor-11);
+.titulo p{
+  text-transform: uppercase;
 }
 
 .titulo{
-  padding: 40px 20px 60px 20px;
-}
-
-.titulo p{
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 800px) {
-  .titulo p{
-    text-transform: lowercase;
-    margin-bottom: 5px;
-  }
-  .titulo{
-    padding: 20px 10px 30px 10px;
-  }
+  padding: 0 20px;
 }
 
 .termos-info{
@@ -35,4 +20,16 @@
 
 .termos-info p + h3{
   margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .titulo p{
+    text-transform: lowercase;
+  }
+  .titulo{
+    padding: 20px 10px 30px 10px;
+  }
+  .titulo{
+    padding: 20px;
+  }
 }
